@@ -4,8 +4,6 @@
 	<div class="aw-login-box">
 		<div class="mod-body clearfix">
 			<div class="content pull-left">
-				<h1 class="logo"><a href=""></a></h1>
-				<h2><?php echo get_setting('site_name'); ?></h2>
 				<form id="login_form" method="post" onsubmit="return false" action="account/ajax/login_process/">
 					<input type="hidden" name="return_url" value="<?php echo $this->return_url; ?>" />
 					<ul>
@@ -68,9 +66,7 @@
 		</div>
 		<div class="mod-footer">
 			<span>还没有账号?</span>&nbsp;&nbsp;
-			<a href="account/register/"><?php _e('立即注册'); ?></a>&nbsp;&nbsp;•&nbsp;&nbsp;
-			<a href="">游客访问</a>&nbsp;&nbsp;•&nbsp;&nbsp;
-			<a href="reader/"><?php _e('问答阅读'); ?></a>
+			<a href="account/register/"><?php _e('立即注册'); ?></a>
 		</div>
 	</div>
 </div>
